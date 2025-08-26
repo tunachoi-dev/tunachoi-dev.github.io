@@ -1,0 +1,25 @@
+# 블로그 기본 설정
+title: "tunachoi-dev Dev Blog"
+description: "백엔드 개발자의 성장 기록"
+author: "최동원"
+email: choidongwon9929@gmail.com
+
+# 테마 설정 (택 1)
+theme: minima
+
+# 또는 원격 테마 사용 (더 예쁜 테마)
+# remote_theme: jekyll/minima
+
+# 블로그 URL 설정
+url: "https://tunachoi-dev.github.io"
+baseurl: ""
+
+# 소셜 미디어
+github_username: tunachoi-dev
+linkedin_username: [선택사항]
+
+# 플러그인
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

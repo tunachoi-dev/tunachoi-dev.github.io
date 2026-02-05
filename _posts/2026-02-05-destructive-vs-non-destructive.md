@@ -134,7 +134,8 @@ int originalNumber = number;  // 백업
 // 나중에 원본이 필요하면 originalNumber를 사용
 System.out.println("원본: " + originalNumber);
 ```
-## 5. 요약
+## 요약
+
 |**구분**|**파괴적 연산 (Destructive)**|**비파괴적 연산 (Non-destructive)**|
 |---|---|---|
 |**방식**|원본 변수의 값을 직접 수정|원본을 읽기만 하고 새 값을 생성|
@@ -144,5 +145,3 @@ System.out.println("원본: " + originalNumber);
 |**추천**|임시 변수 계산 시 제한적 사용|**기본적으로 권장됨**|
 
 코드를 짤 때, **"이 변수의 값이 나중에도 필요할까?"** 를 항상 고민하는 습관을 들이면 더 견고한 프로그램을 만들 수 있습니다.
-
-[^1]: 
